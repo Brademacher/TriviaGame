@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Nick Toons Quiz</title>
+</head>
+
+<body>
+
+    <h1>90's Nickelodeon Quiz Time!!!</h1>
+
+    <!-- Timer -->
+    <div class = "container bg-primary text-white text-center size-50px">
+        <p id="timer"></p>
+    </div>
+
+    <!-- Questions for the quiz -->
+    <form id="quiz" name="quiz">
+
+        <p>What were the name of the twins in the show Rugrats?</p>
+
+        <input type="radio" id="" name="question1" value="0"> something
+        <br>
+        <input type="radio" id="" name="question1" value="1"> Phil & Lil
+        <br>
+        <input type="radio" id="" name="question1" value="0"> something
+        <br>
+        <input type="radio" id="" name="question1" value="0"> something
+        <br>
+
+        <p>What was the name of the girl Doug Funny had a crush on?</p>
+
+        <input type="radio" id="" name="question2" value="0"> something
+        <br>
+        <input type="radio" id="" name="question2" value="0"> something
+        <br>
+        <input type="radio" id="" name="question2" value="1"> Patty Mayonaise
+        <br>
+        <input type="radio" id="" name="question2" value="0"> something
+        <br>
+
+        <p>What did Helga
+            <i>always</i> call Arnold in the show Hey Arnold?</p>
+
+        <input type="radio" id="" name="question3" value="1"> Football Head
+        <br>
+        <input type="radio" id="" name="question3" value="0"> something
+        <br>
+        <input type="radio" id="" name="question3" value="0"> something
+        <br>
+        <input type="radio" id="" name="question3" value="0"> something
+        <br>
+
+        <p>What is the name of the evil mouse that lives with Catdog?</p>
+
+        <input type="radio" id="" name="question4" value="1"> Winslow T. Oddfellow
+        <br>
+        <input type="radio" id="" name="question4" value="0"> something
+        <br>
+        <input type="radio" id="" name="question4" value="0"> something
+        <br>
+        <input type="radio" id="" name="question4" value="0"> something
+        <br>
+
+        <p>What is the name of Mr. Krabs sworn enemy</p>
+
+        <input type="radio" id="" name="question5" value="0"> something
+        <br>
+        <input type="radio" id="" name="question5" value="0"> something
+        <br>
+        <input type="radio" id="" name="question5" value="0"> something
+        <br>
+        <input type="radio" id="" name="question5" value="1"> Plankton
+        <br>
+
+        <p>What is the name of this character from Ah! Real Monsters?</p>
+        <img src="./assets/images/ickis.jpg">
+        <br>
+
+        <input type="radio" id="" name="question6" value="0"> something
+        <br>
+        <input type="radio" id="" name="question6" value="0"> something
+        <br>
+        <input type="radio" id="" name="question6" value="1"> Ickis
+        <br>
+        <input type="radio" id="" name="question6" value="0"> something
+        <br>
+
+        <p>What type of animal is Rocko from Rocko's Modern Life?</p>
+
+        <input type="radio" id="" name="question7" value="1"> Wallaby
+        <br>
+        <input type="radio" id="" name="question7" value="0"> something
+        <br>
+        <input type="radio" id="" name="question7" value="0"> something
+        <br>
+        <input type="radio" id="" name="question7" value="0"> something
+        <br>
+
+        <p>In the show The Wild Thornberrys, what is the name of Eliza's chimp companion?</p>
+
+        <input type="radio" id="" name="question8" value="0"> something
+        <br>
+        <input type="radio" id="" name="question8" value="0"> something
+        <br>
+        <input type="radio" id="" name="question8" value="0"> something
+        <br>
+        <input type="radio" id="" name="question8" value="1"> Darwin
+        <br>
+
+        <p>Daggot is the brother of which Angry Beaver?</p>
+
+        <input type="radio" id="" name="question9" value="0"> something
+        <br>
+        <input type="radio" id="" name="question9" value="1"> Norbert
+        <br>
+        <input type="radio" id="" name="question9" value="0"> something
+        <br>
+        <input type="radio" id="" name="question9" value="0"> something
+        <br>
+
+        <p>What is the name of Otto Rocket's older sister in the show Rocket Power?</p>
+
+        <input type="radio" id="" name="question10" value="0"> something
+        <br>
+        <input type="radio" id="" name="question10" value="0"> something
+        <br>
+        <input type="radio" id="" name="question10" value="0"> something
+        <br>
+        <input type="radio" id="" name="question10" value="1"> Reggie Rocket
+        <br>
+
+        <!-- button to submit questions (need to link timer to this) -->
+        <input id="submit" type="button" value="Check my answers!" onClick="check()">
+
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+        </script>
+        <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
